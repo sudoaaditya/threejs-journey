@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#webgl-canvas {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    outline: none;
+}
+
+.matcapCont {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 5px;
+    height: max-content;
+    width: max-content;
+    background-color: rgba(255, 255, 255, 0.103);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.matcapSpan {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    margin: 3px 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.active {
+    border: 2px solid beige;
+}
+
+.matcap-1 {
+    background-image: url('./matcaps/1.png');
+}
+.matcap-2 {
+    background-image: url('./matcaps/2.png');
+}
+.matcap-3 {
+    background-image: url('./matcaps/3.png');
+}
+.matcap-4 {
+    background-image: url('./matcaps/4.png');
+}
+.matcap-5 {
+    background-image: url('./matcaps/5.png');
+}
+.matcap-6 {
+    background-image: url('./matcaps/6.png');
+}
+.matcap-7 {
+    background-image: url('./matcaps/7.png');
+}
+.matcap-8 {
+    background-image: url('./matcaps/8.png');
+}

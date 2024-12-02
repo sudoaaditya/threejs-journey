@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#webgl-canvas {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    outline: none;
+}
+
+.loaderDiv {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    background-color: #85a1ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out;
+}
+
+.loaderContDiv {
+    position: relative;
+    height: 20%;
+    width: max-content;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.textSpan { 
+    position: relative;
+    font-size: 80px;
+    font-size: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(165, 118, 60);
+}
+
+.controlsDiv {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    width: max-content;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #85a1caa4;
+    padding: 5px;
+}
+
+.btnPlay {
+    position: relative;
+    display: flex;
+    margin: 0px 5px;
+    background-image: url('./icons/play.png');
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.btnPause {
+    position: relative;
+    display: flex;
+    margin: 0px 5px;
+    background-image: url('./icons/pause.png');
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}

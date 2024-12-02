@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":"AAAA;IACI,SAAS;IACT,UAAU;AACd;;AAEA;IACI,eAAe;IACf,MAAM;IACN,SAAS;IACT,aAAa;AACjB","sources":["webpack:///./src/style.css"],"sourcesContent":["*{\n    margin: 0;\n    padding: 0;\n}\n\n#webgl-canvas {\n    position: fixed;\n    top: 0;\n    bottom: 0;\n    outline: none;\n}\n\n"],"names":[],"sourceRoot":""}
